@@ -1,0 +1,132 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   position:relative;
+   min-width:850px;
+   height:140px;
+}
+   #logo{
+      position:absolute;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      left:0;
+      top:85px;
+      height:50px;
+      width:150px;
+      font-size:36px;
+      color:#C23030;
+   }
+   #menu{
+      position:absolute;
+      left:200px;
+      height:140px;
+      width:140px;
+      top:15px;
+      text-align:right;
+   }
+      #menu ul{
+         list-style:none;
+         margin:0;
+         padding:0;
+      }
+      #menu ul li a, #menu ul li a:visited{
+         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+         font-size:15px;
+         color:#000000;
+         text-decoration:none;
+      }
+      #menu ul li a:hover{
+         text-decoration:underline;
+      }
+   #topBanner{
+      position:absolute;
+      left:350px;
+      height:140px;
+      width:500px;
+      background:#C23030;
+   }
+#body {
+   padding-bottom:70px;   /* Height of the footer */
+}
+   .red{
+      text-decoration:none;
+      color:#C23030;
+   }
+   .red:hover{
+      text-decoration:underline;
+   }
+   .greybackground{
+      padding:30px 0px;
+      background:#F2F0F1;
+      width:100%;
+      min-width:850px;
+      height:250px;
+   }
+   #bannerText{
+      position:absolute;
+      left:10px;
+      top:50px;
+      font-family: 'HelveticaRoundedLTStdBdCn', 'helvetica neue', helvetica, sans-serif;
+      font-size:36px;
+      font-weight:bold;
+      width:350px;
+      height:150px;
+   }
+   #banner{
+      position:absolute;
+      left:400px;
+   }
+   #banner img{
+      height:250px;
+   }
+
+   .col{
+      width:400px;
+      font-family:Georgia;
+      padding-right:10px;
+      display:block;
+   }
+   .subTitle{
+      color:#C23030;
+      font-size:16px;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   }
+   #col1{
+      border-right:1px solid #cccccc;
+   }
+   #col2{
+      float:right;
+   }
+.topSpace{
+   padding-top:10px;
+}
+.center{
+   text-align:center;
+}
+.small{
+   font-size:14px;
+}
+.white{
+   color:#ffffff;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   min-width:850px;
+   height:60px;   /* Height of the footer */
+   background:#373737;
+   color:#999999;
+}
+.inner {
+   position:relative;
+   width:850px;
+   margin:auto;
+}
